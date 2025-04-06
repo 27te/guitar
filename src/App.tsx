@@ -1,6 +1,6 @@
 import { useEffect, useReducer } from "react";
-import Guitar from "./components/guitar";
-import Header from "./components/header";
+import { Header, Guitar } from "./components";
+
 import { cartReducer, initialState } from "./reducers/cart.reducer";
 
 function App() {

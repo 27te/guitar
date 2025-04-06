@@ -6,7 +6,7 @@ type HeaderProps = {
   dispatch: Dispatch<CartActions>;
 };
 
-export default function Header({ cart, dispatch }: HeaderProps) {
+export function Header({ cart, dispatch }: HeaderProps) {
   const isEmpty = useMemo(() => cart.length === 0, [cart]);
   const cartTotal = useMemo(
     () => cart.reduce((total, item) => total + item.quantity * item.price, 0),
