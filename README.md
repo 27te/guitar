@@ -2,7 +2,7 @@
 
 A modern e-commerce website for a guitar store built with React and TypeScript.
 
-## Features
+## Feature
 
 - Product catalog with detailed guitar information
 - Shopping cart functionality
